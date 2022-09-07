@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--,宽度为屏幕宽度，初始的缩放比例为1.0-->
+    <title>自我介绍</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url(12.jpg) no-repeat;
+            background-size: cover;<!--把背景图片放大到适合元素容器的尺寸，图片比例不变-->
+        }
+
+        .box {
+            width: 1200px;
+            height: 540px;
+            background: rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 7%;
+
+        }
+
+        .box .left a {
+            display: block;
+            width: 200px;
+            height: 90px;
+            background: rgba(0, 0, 0, 0.2);
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            padding-left: 30px;
+            line-height: 90px;
+        }
+
+        .box .left a:hover {
+            background-color: #ff6700;
+        }
+
+        .left {
+            float: left;
+            width: 230px;
+            height: 540px;
+            background-color: cadetblue;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .right {
+            float: right;
+            width: 970px;
+            height: 540px;
+            background-color: rgba(152, 233, 233, 0.2);
+            ;
+
+        }
+
+        .right>div {
+            float: left;
+            width: 470px;
+            height: 540px;
+            background: rgba(0, 0, 0, 0.2);
+            margin-left: 14px;
+            margin-bottom: 14px;
+        }
+
+        .right .one {
+            background-color: rgb(152, 233, 233, 0.2);
+        }
+
+        .right .photo {
+            width: 490px;
+            height: 540px;
+        }
+
+        .right .one h1 {
+            color: white;
+            font-size: 60px;
+        }
+
+        .right .one p {
+            font-size: 40px;
+            font-weight: 500;
+            color: rgb(148, 241, 248);
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <a href="#">首页</a>
+        <a href="个人简介.html" target="_blank">个人简介</a>
+        <a href="人生格言.html" target="_blank">人生格言</a>
+        <a href="兴趣爱好.html" target="_blank">兴趣爱好</a>
+        <a href="未来规划.html" target="_blank">未来规划</a>
+        <a href="图片集.html" target="_blank">图片集</a>
+    </div>
+    <div class="box">
+        <div class="left">
+            <a href="#">首页</a>
+            <a href="个人简介.html" target="_blank">个人简介</a>
+            <a href="人生格言.html" target="_blank">人生格言</a>
+            <a href="兴趣爱好.html" target="_blank">兴趣爱好</a>
+            <a href="未来规划.html" target="_blank">未来规划</a>
+            <a href="图片集.html" target="_blank">图片集</a>
+        </div>
+        <div class="right">
+            <div class="one">
+                <h1><i>Hello Evenbody</i></h1>
+                <p>我叫魏陈，</p>
+                <p>我来自计科203班</p>
+            </div>
+            <div>
+                <img src="112.jpg" alt="背景图" class="photo">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
